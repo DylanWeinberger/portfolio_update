@@ -1,0 +1,191 @@
+body{
+	background-color: #131510;
+	/*width: 100%;*/
+	/*background: transparent;*/
+}
+#container {
+	background-image: url("images/background.jpeg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	/*background: transparent;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.headliner {
+	width: 800px;
+}
+
+#headline{
+	color: rgba(151, 142, 142, 1);
+	font-size: 76px;
+	font-family: 'Lobster', cursive;
+	position: relative;
+	top: 10px;
+	left: 48%;
+}
+
+.subhead {
+	position: absolute;
+	top: 200px ;
+	left: 25%;
+	display: flex;
+	flex-direction: row;
+	width: 900px;
+
+}
+
+.subhead a {
+	color: rgba(151, 142, 142, 1);
+	font-size: 32px;
+	font-family: 'Ubuntu', sans-serif;
+	position: relative;
+	padding: 24px;
+	text-decoration: none;
+	transition: .8s;
+}
+
+.subhead_one:hover {
+	color: #B78606;
+	text-decoration: underline;
+}
+
+.subhead_two:hover {
+	color: #B76506;
+	text-decoration: underline;
+}
+
+.subhead_three:hover {
+	color: #B72B06;
+	text-decoration: underline;
+}
+
+.development {
+	position: relative;
+	left: 0px;
+	width: 100%;
+	/*height: 900px;*/
+	background-color: #131510;
+	top: 375px;
+	margin-top: 350px;
+}
+
+#dev {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 64px;
+	color: #EAECE7;
+	position: relative;
+	left: 59%;
+	
+}
+
+.port_item {
+	display: block;
+	width: 600px;
+	text-align: center;
+}
+
+.screenshot {
+	width: 600px;
+	position: relative;
+	margin-top: 100px;
+	left: 55%;
+
+}
+
+.example {
+	font-size: 36px;
+	font-family: 'Ubuntu', sans-serif;
+	color: #EAECE7;
+	text-decoration: none;
+	position: relative;
+	left: 55%;
+	top: 35px;
+	padding: 20px;
+	transition: 1s;
+}
+
+.example:hover {
+	color: #B72B06;
+	text-decoration: underline;
+}
+
+
+#acting {
+	position: relative;
+	margin-top: 300px;
+	color: #EAECE7;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+}
+
+
+#acting h1 {
+	font-size: 64px;
+}
+
+#acting h3 {
+	font-size: 36px;
+}
+
+.parallax-window-1 {
+	/*margin-top: 60px;*/
+    min-height: 300px;
+    background: transparent;
+    position: relative;
+    top: 200px;
+    margin-top: 300px;
+    /*z-index: 0;*/
+}
+
+.parallax-window-2 {
+	/*margin-top: 60px;*/
+    min-height: 300px;
+    background: transparent;
+    position: relative;
+    top: 200px;
+    /*margin-top: 00px;*/
+    /*z-index: 0;*/
+}
+
+#dyl {
+	width: 900px;
+	margin: 0 auto;
+	color: #EAECE7;
+	font-family: 'Ubuntu', sans-serif;
+	margin-top: 250px;
+}
+
+.dylanread {
+	width: 300px;
+	float: left;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+
+#dyl h1{
+	font-size: 64px;
+	text-align: center;
+
+
+}
+
+.dylnkiwi {
+	width: 300px;
+	float: right;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+.graff {
+	width: 900px;
+	/*position: relative;*/
+	/*left: 25%;*/
+}
+
+
+
+
